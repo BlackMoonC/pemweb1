@@ -29,8 +29,6 @@ $result = mysqli_fetch_all($query, MYSQLI_ASSOC);
                     <td>
                         <a href="edit.php?id=<?php echo $value['id'] ?>">Edit |</a>
                         <a href="delete.php?id=<?php echo $value['id'] ?>">Hapus |</a>
-                        <a href="pilih.php?id=<?php echo $value['id'] ?>">Pilih Ketua |</a>
-                        <a href="daftar.php?id=<?php echo $value['id'] ?>"> Daftar Untuk Calon Ketua</a>
                     </td>
                 </tr>
             <?php } ?>
